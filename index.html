@@ -1,1 +1,53 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Jessica Chen</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        li.main-link {
+            font-weight: bold;
+        }
+    </style>
+  </head>
+
+  <body>
+    <svg viewBox="0 0 400 270">
+      <title>JC Logo</title> 
+      
+      <defs>
+        <linearGradient id="gradient1">
+          <stop offset="0%" stop-color="cornflowerblue" />
+          <stop offset="100%" stop-color="darkslateblue" />
+        </linearGradient>
+
+        <linearGradient id="gradient2">
+          <stop offset="0%" stop-color="darkslateblue" />
+        </linearGradient>
+
+        <linearGradient id="gradient3">
+          <stop offset="0%" stop-color="cornflowerblue" />
+          <stop offset="100%" stop-color="lavender" />
+        </linearGradient>
+      </defs>
+
+      <g id="shapes">
+        <!-- squares -->
+          <rect class="sq" x="30" y="90" width="90" height="90"/>
+          <rect class="sq" x="120" y="180" width="90" height="90"/>
+
+        <!-- circle -->
+          <circle class="c1" cx="210" cy="90" r="90"/>
+
+        <!-- triangle -->
+          <polygon class="p1" points="30,180 120,180 120,270"/>
+      </g>
+
+      <text x="165" y="115" fill="white" font-family="Georgia" font-size="75">JC</text>
+    </svg>
+
+    <ul>
+      <li class="main-link"><a href="https://jesshc.github.io/goiania_final/">Goiania Project</a></li>
+    </ul>
+  </body>
+</html>
